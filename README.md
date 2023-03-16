@@ -1,2 +1,2 @@
 # multipage_template
-Basic template for Multipage IDE elements.
+Basic templates for Multipage IDE elements.

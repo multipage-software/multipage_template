@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AreaTreeData>
+  <RootAreaId id="902"/>
+  <HomeAreaId/>
+  <StartLanguageId id="0"/>
+  <RootSuperEdge hideSub="false" inheritance="false"/>
+  <LanguageRef>
+    <Record alias="def" description="Default" id="0" priority="0"/>
+    <Record alias="en" dataEnd="791" dataStart="0" description="English" id="1" priority="4"/>
+    <Record alias="de" dataEnd="1019" dataStart="791" description="Deutsch" id="2" priority="1"/>
+    <Record alias="es" dataEnd="1266" dataStart="1019" description="Español" id="3" priority="3"/>
+    <Record alias="fr" dataEnd="1629" dataStart="1266" description="Français" id="4" priority="2"/>
+    <Record alias="pl" dataEnd="1762" dataStart="1629" description="Polski" id="5" priority="0"/>
+    <Record alias="cz" dataEnd="2103" dataStart="1762" description="Čeština" id="6" priority="0"/>
+  </LanguageRef>
+  <AreaData>
+    <Record canImport="true" constructorsGroupId="23" descriptionId="1904" enabled="true" guid="C3075471-4361-4721-990A-7DC5D56E7030" help="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;&#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#13;&#10;      &lt;b&gt;&lt;font size=&quot;6&quot;&gt;Open Template&#13;&#10;&lt;/font&gt;&lt;/b&gt;    &lt;/p&gt;&#13;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#13;&#10;      The template &lt;u&gt;does not set any uneccessary constraints&lt;/u&gt; for users &#13;&#10;      and for Maclan macrolanguage programmers.&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" id="902" localized="true" projectRoot="true" readOnly="true" visible="true"/>
+    <Record canImport="true" constructorHolderId="89" descriptionId="1908" enabled="true" guid="9B07CA36-BA36-4DDC-9CE9-6DC4F7118BDA" id="905" localized="true" projectRoot="false" readOnly="true" visible="true"/>
+  </AreaData>
+  <IsSubArea>
+    <Record hideSub="false" id="902" inheritance="true" positionId="914" prioritySub="0" prioritySuper="0" recursion="false" subAreaId="905"/>
+  </IsSubArea>
+  <SlotData/>
+  <LocText>
+    <Record languageId="0" text="open_template" textId="1904"/>
+    <Record languageId="0" text="area" textId="1908"/>
+    <Record languageId="0" text="Default" textId="1"/>
+  </LocText>
+  <Description/>
+  <AreaResourceRef>
+    <Record areaId="902" localDescription="main" resourceId="35"/>
+  </AreaResourceRef>
+  <ResourceRef>
+    <Record description="main" mimeTypeId="7" protected="true" resourceId="35" text="" visible="true"/>
+  </ResourceRef>
+  <Mime>
+    <Record extension="txt" mimeId="7" preference="false" type="text/plain"/>
+  </Mime>
+  <Version>
+    <Record alias="def" descriptionId="1" versionId="0"/>
+  </Version>
+  <AreaSource>
+    <Record areaId="902" notLocalized="false" resourceId="35" versionId="0"/>
+  </AreaSource>
+  <Enumeration/>
+  <EnumerationValue/>
+  <ConstructorTree>
+    <Group alias="areas" id="23">
+      <Constructor areaId="905" askRelatedArea="false" id="89" inheritance="true" invisible="false" name="area" setHome="false" subGroupAliases="areas"/>
+    </Group>
+  </ConstructorTree>
+</AreaTreeData>
